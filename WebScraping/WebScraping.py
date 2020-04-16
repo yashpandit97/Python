@@ -8,7 +8,7 @@ path = "C:\\Web Automation\\chromedriver.exe"
 # chromedriver = 'C:\\Users\\grayson\\Downloads\\chromedriver.exe'
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
-# options.add_argument('window-size=1200x600') # optional
+# options.add_argument('window-size=1200x600') 
  
 driver = webdriver.Chrome(executable_path=path, options=options)
 
